@@ -1,0 +1,19 @@
+<div>
+  <table>
+    <thead>
+      <td>Sender</td>
+      <td>Body</td>
+      <td>Date</td>
+    </thead>
+    <tbody>
+      <tr *ngFor="let msg of msgs; let i = index">
+        <td>{{msg['sender']}}</td>
+        <td>{{msg['body']}}</td>
+        <td>{{msg['date']}}</td>
+        <button (click)="onClick(msg['_id'])">delete</button>
+      </tr>
+    </tbody>
+  </table>
+
+  <a href="/log/add">Add new msg</a>
+</div>

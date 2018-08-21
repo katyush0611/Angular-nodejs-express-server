@@ -1,0 +1,14 @@
+form {
+	display: flex;
+	flex-wrap: wrap;
+}
+input {width: 50%;}
+input[name='body'] {
+	height: 20vh;
+	margin-top: 2%;
+}
+button {
+	width: 20%;
+	margin: 5% 15%;
+	cursor: pointer;
+}

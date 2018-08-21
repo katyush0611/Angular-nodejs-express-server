@@ -1,0 +1,33 @@
+td {
+	border: 1px solid black;
+	border-radius: 10px;
+	text-align: center;
+}
+thead td {
+	color: red;
+	font-weight: bold;
+	font-size: 18px;
+}
+table {
+	margin: 5% 25%;
+	width: 50%;
+}
+a {
+	margin-top: 5rem;
+	font-size: 20px;
+}
+button {
+	background-color: #ef19191c;
+	border: none;
+	border-radius: 50%;
+	height: 6vh;
+	margin-left: 1rem;
+	cursor: pointer;
+}
+div {
+	font-family: monospace;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	flex-wrap: wrap;
+}

@@ -1,0 +1,5 @@
+<form #f="ngForm" (ngSubmit)="onSubmit(f)">
+	<input name="sender" type="text" placeholder="From?" required ngModel>
+	<input name="body" type="text" placeholder="your msg here" required ngModel>
+	<button type="submit">Send</button>
+</form>
